@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / KNIME workspace metadata
+.idea/
+.vscode/
+.metadata/
+*.log
+
+# Full datasets are intentionally kept local
+data/raw/*.csv
+data/processed/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
